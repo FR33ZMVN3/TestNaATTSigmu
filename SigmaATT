@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String [] args) {
+        
+        System.out.print("АТТ УВАЖАЕШЬ? ");
+        System.out.println("Да или Нет?");
+        
+        Scanner sc = new Scanner(System.in);
+        String mn = sc.nextLine();
+        
+        switch (mn) {
+            case "Нет":
+            System.out.println("Нет? Ливай с серва, чепух."); break;
+            case "Да":
+            System.out.println("Да? *эмоция сигмы тун тун тудун тун тун*"); break;
+            }
+        }
+    
