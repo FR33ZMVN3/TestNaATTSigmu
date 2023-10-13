@@ -15,7 +15,7 @@ public class Main {
             System.out.println("Нет? Ливай с серва, чепух."); break;
             case "Да":
             System.out.println("Да? *эмоция сигмы тун тун тудун тун тун*");
-             System.out.print("ТОЧНО УВАЖАЕШЬ АТТ!?");
+             System.out.println("ТОЧНО УВАЖАЕШЬ АТТ!?");
         System.out.println("Точно или Неточно?");
         Scanner sv =  new Scanner(System.in);
          String hf = sv.nextLine();
@@ -29,4 +29,3 @@ public class Main {
         }
         }
     }
-    
